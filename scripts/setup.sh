@@ -12,3 +12,4 @@ source audio-bluetooth.sh
 source printers.sh
 source fonts.sh
 source useful-tools.sh
+source paru.sh
