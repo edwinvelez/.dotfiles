@@ -18,6 +18,7 @@ ttf-droid \
 ttf-fira-code \
 ttf-firacode-nerd \
 ttf-fira-mono \
+ttf-font-awesome \
 ttf-hack \
 ttf-ibm-plex \
 ttf-inconsolata \
