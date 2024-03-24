@@ -9,6 +9,9 @@ dex \
 dunst \
 feh \
 gnome-keyring \
+materia-gtk-theme \
+papirus-icon-theme \
+lxappearance-gtk3 \
 network-manager-applet \
 picom \
 polybar \
@@ -18,4 +21,4 @@ xorg-apps \
 xorg-xinit \
 xorg-server \
 xss-lock \
---needed --noconfirm
+--noconfirm --needed
