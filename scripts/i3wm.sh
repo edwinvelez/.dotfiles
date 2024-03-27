@@ -17,6 +17,16 @@ picom \
 polybar \
 rofi \
 seahorse \
+\
+thunar \
+thunar-archive-plugin \
+thunar-media-tags-plugin \
+thunar-volman \
+gvfs \
+file-roller \
+tumbler \
+ffmpegthumbnailer \
+\
 xorg-apps \
 xorg-xinit \
 xorg-server \
