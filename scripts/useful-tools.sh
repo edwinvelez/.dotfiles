@@ -5,6 +5,7 @@ sudo pacman -S \
 alacritty \
 btop \
 curl \
+exfatprogs \
 fuse2 \
 fuse3 \
 fwupd \
