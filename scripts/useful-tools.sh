@@ -22,6 +22,7 @@ rsync \
 smartmontools \
 starship \
 stow \
+usbutils \
 unzip \
 wget \
 xdg-user-dirs \
