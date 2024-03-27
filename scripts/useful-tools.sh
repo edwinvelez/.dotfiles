@@ -5,12 +5,14 @@ sudo pacman -S \
 alacritty \
 btop \
 curl \
+ethtool \
 exfatprogs \
 fuse2 \
 fuse3 \
 fwupd \
 git \
 hwdetect \
+lshw \
 neofetch \
 neovim \
 openssh \
