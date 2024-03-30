@@ -12,6 +12,7 @@ fuse3 \
 fwupd \
 git \
 hwdetect \
+hwinfo \
 lshw \
 neofetch \
 neovim \
