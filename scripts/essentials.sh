@@ -9,7 +9,7 @@ linux-headers \
 linux-lts \
 linux-lts-headers \
 linux-firmware \
-linux-firmware-qcom \ # Dell Laptop
+linux-firmware-qcom \
 sof-firmware \
 reflector \
 networkmanager \
