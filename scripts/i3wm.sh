@@ -12,6 +12,7 @@ gnome-keyring \
 materia-gtk-theme \
 papirus-icon-theme \
 lxappearance-gtk3 \
+lxsession-gtk3 \
 network-manager-applet \
 picom \
 polybar \
