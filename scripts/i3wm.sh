@@ -27,6 +27,7 @@ file-roller \
 tumbler \
 ffmpegthumbnailer \
 \
+xf86-video-intel \
 xorg-apps \
 xorg-xinit \
 xorg-server \
