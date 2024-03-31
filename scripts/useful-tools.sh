@@ -2,6 +2,8 @@
 
 echo "Installing useful tool packages"
 sudo pacman -S \
+acpi \
+acipd \
 alacritty \
 btop \
 curl \
@@ -30,6 +32,9 @@ xdg-user-dirs \
 xdg-utils \
 zip \
 --needed --noconfirm
+
+echo "Enabling acpid daemon"
+sudo systemctl enable --now acpid.service
 
 echo "Enabling sshd daemon"
 sudo systemctl enable --now sshd.service
