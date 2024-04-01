@@ -18,7 +18,6 @@ picom \
 polybar \
 rofi \
 seahorse \
-\
 thunar \
 thunar-archive-plugin \
 thunar-media-tags-plugin \
@@ -27,8 +26,8 @@ gvfs \
 file-roller \
 tumbler \
 ffmpegthumbnailer \
-\
-xf86-video-intel \
+xdg-user-dirs \
+xdg-utils \
 xorg-apps \
 xorg-xinit \
 xorg-server \

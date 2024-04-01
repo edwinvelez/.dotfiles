@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-echo "Installing audio packages"
+echo "Installing audio support"
 sudo pacman -S \
 pipewire \
 pipewire-audio \
@@ -10,7 +10,7 @@ pavucontrol \
 --noconfirm --needed
 
 
-echo "Installing bluetooth packages"
+echo "Installing bluetooth support"
 sudo pacman -S \
 bluez \
 bluez-utils \

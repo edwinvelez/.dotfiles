@@ -11,4 +11,4 @@ echo "Adding user to vboxusers group"
 sudo usermod -aG vboxusers $USER
 
 echo "Installing VirtualBox extensions"
-paru -S virtualbox-ext-oracle --noconfirm
+paru -S virtualbox-ext-oracle --noconfirm --needed

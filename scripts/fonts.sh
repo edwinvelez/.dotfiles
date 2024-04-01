@@ -26,4 +26,4 @@ ttf-liberation \
 ttf-opensans \
 ttf-roboto \
 ttf-ubuntu-font-family \
---needed --noconfirm
+--noconfirm --needed
