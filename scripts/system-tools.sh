@@ -10,6 +10,7 @@ fwupd \
 hwdetect \
 hwinfo \
 lshw \
+man \
 pacman-contrib \
 reflector \
 usbutils \
