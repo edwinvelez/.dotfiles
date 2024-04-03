@@ -9,6 +9,8 @@ ufw \
 networkmanager \
 openssh \
 smartmontools \
+tlp \
+tlp-rdw \
 --noconfirm --needed
 
 echo "Enabling acpid daemon"
@@ -27,3 +29,16 @@ sudo systemctl enable --now sshd.service
 
 echo "Enabling S.M.A.R.T daemon"
 sudo systemctl enable --now smartd.service
+
+echo "Masking rfkill"
+sudo systemctl mask systemd-rfkill.service
+sudo systemctl mask systemd-rfkill.socket
+
+echo "Copying /etc/tlp.conf to location"
+sudo cp configs/tlp.conf /etc/tlp.conf
+
+echo "Enabling tlp daemon"
+sudo systemctl enable --now tlp.service
+
+echo "Enabling radio device wizard daemon"
+sudo systemctl enable --now NetworkManager-dispatcher.service
