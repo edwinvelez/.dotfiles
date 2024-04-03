@@ -3,7 +3,7 @@
 echo "Installing system daemons"
 sudo pacman -S \
 acpi \
-acipd \
+acpid \
 gufw \
 ufw \
 networkmanager \
