@@ -6,6 +6,7 @@ alacritty \
 btop \
 curl \
 git \
+maim \
 neofetch \
 neovim \
 ranger \
@@ -14,5 +15,7 @@ starship \
 stow \
 unzip \
 wget \
+xclip \
+xdotool \
 zip \
 --noconfirm --needed
