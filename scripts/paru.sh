@@ -15,3 +15,6 @@ paru -S google-chrome --noconfirm --needed
 
 echo "Installing Dropbox"
 paru -S dropbox --noconfirm --needed
+
+echo "Installing VS Code"
+paru -S visual-studio-code-bin --noconfirm --needed
