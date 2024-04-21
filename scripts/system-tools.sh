@@ -2,6 +2,7 @@
 
 echo "Installing system tools"
 sudo pacman -S \
+dmidecode \
 ethtool \
 exfatprogs \
 fuse2 \
