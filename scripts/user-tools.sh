@@ -5,9 +5,9 @@ sudo pacman -S \
 alacritty \
 btop \
 curl \
+fastfetch \
 git \
 maim \
-neofetch \
 neovim \
 ranger \
 rsync \
