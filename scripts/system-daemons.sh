@@ -9,9 +9,15 @@ ufw \
 networkmanager \
 openssh \
 smartmontools \
+--noconfirm --needed
+
+# My laptop
+if [[ "$IS_LAPTOP" ]]; then
+sudo pacman -S \
 tlp \
 tlp-rdw \
 --noconfirm --needed
+fi
 
 echo "Enabling acpid daemon"
 sudo systemctl enable --now acpid.service
