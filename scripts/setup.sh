@@ -1,14 +1,9 @@
 #!/usr/bin/env bash
 
-LAPTOP_HOSTNAME="my-arch-laptop"
-DESKTOP_HOSTNAME="my-arch-pc"
-IS_LAPTOP=false
+export IS_LAPTOP=false
 
-export IS_LAPTOP
-
-# Laptop or Desktop?
-if [[ "$LAPTOP_HOSTNAME" == $(hostnamectl hostname) ]]; then
-    IS_LAPTOP=true
+if [[ $(hostnamectl chassis) == "laptop" ]]; then
+  IS_LAPTOP=true
 fi
 
 echo "Synchronizing pacman database"
@@ -18,11 +13,7 @@ echo "Starting Arch Linux package installation"
 source system-packages.sh
 source system-tools.sh
 source system-daemons.sh
-
-if [[ "$IS_LAPTOP" ]]; then
-  source intel-drivers.sh
-fi
-
+source intel-drivers.sh
 source nvidia-drivers.sh
 source user-tools.sh
 source fonts.sh
