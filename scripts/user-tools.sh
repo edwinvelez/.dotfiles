@@ -7,7 +7,6 @@ btop \
 curl \
 fastfetch \
 git \
-maim \
 neovim \
 ranger \
 rsync \
@@ -15,7 +14,6 @@ starship \
 stow \
 unzip \
 wget \
-xclip \
 xdotool \
 zip \
 --noconfirm --needed

@@ -26,6 +26,8 @@ gvfs \
 file-roller \
 tumbler \
 ffmpegthumbnailer \
+maim \
+xclip \
 xdg-user-dirs \
 xdg-utils \
 xorg-apps \
