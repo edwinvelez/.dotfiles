@@ -25,3 +25,14 @@ if [[ ! "$IS_LAPTOP" ]]; then
   amd-ucode \
   --noconfirm --needed
 fi
+
+# Copying Intel boot loader entries
+sudo cp ./configs/boot-loaders/loader.conf /boot/loader
+
+if [[ ! "$IS_LAPTOP" ]]; then
+  sudo cp ./configs/boot-loaders/entries/amd/arch-linux.conf /boot/loader/entries
+  sudo cp ./configs/boot-loaders/entries/amd/arch-linux-fallback.conf /boot/loader/entries
+else
+  sudo cp ./configs/boot-loaders/entries/intel/arch-linux.conf /boot/loader/entries
+  sudo cp ./configs/boot-loaders/entries/intel/arch-linux-fallback.conf /boot/loader/entries
+fi
