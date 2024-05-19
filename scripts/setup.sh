@@ -24,7 +24,6 @@ if [[ "$IS_LAPTOP" ]]; then
 fi
 
 source nvidia-drivers.sh
-source i3wm.sh
 source user-tools.sh
 source fonts.sh
 source audio-bluetooth.sh
