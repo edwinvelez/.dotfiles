@@ -19,4 +19,4 @@ zsh \
 --noconfirm --needed
 
 echo "Updating pacman latest mirrors"
-sudo reflector --verbose --sort score --age 24 --country US --protocol https --save /etc/pacman.d/mirrorlist
+sudo reflector --verbose --sort rate --age 24 --country US --protocol https --save /etc/pacman.d/mirrorlist
