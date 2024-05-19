@@ -6,6 +6,14 @@ if [[ $(hostnamectl chassis) == "laptop" ]]; then
   IS_LAPTOP=true
 fi
 
+echo "Installing reflector"
+sudo pacman -S \
+reflector \
+--noconfirm --needed
+
+echo "Updating pacman latest mirrors"
+sudo reflector --verbose --sort rate --age 24 --country US --protocol https --save /etc/pacman.d/mirrorlist
+
 echo "Synchronizing pacman database"
 sudo pacman -Syyu
 
