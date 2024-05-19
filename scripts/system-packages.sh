@@ -23,15 +23,5 @@ fi
 if [[ ! "$IS_LAPTOP" ]]; then
   sudo pacman -S \
   amd-ucode \
-  linux-firmware-qcom \
-  --noconfirm --needed
-fi
-
-
-# My Laptop
-if [[ "$IS_LAPTOP" ]]; then
-  sudo pacman -S \
-  intel-ucode \
-  linux-firmware-qcom \
   --noconfirm --needed
 fi
