@@ -26,3 +26,14 @@ xorg-apps \
 xorg-xinit \
 xorg-server \
 --noconfirm --needed
+
+echo "Installing LightDM display manager"
+sudo pacman -S \
+accountsservice \
+lightdm \
+lightdm-slick-greeter \
+lightdm-gtk-greeter-settings \
+--noconfirm --needed
+
+echo "Enabling LightDM daemon"
+sudo systemctl enable --now lightdm.service
