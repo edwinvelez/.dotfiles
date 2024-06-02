@@ -6,6 +6,12 @@ if [[ $(hostnamectl chassis) == "laptop" ]]; then
   IS_LAPTOP=true
 fi
 
+echo "Setting hardware clock (a.k.a. the Real Time Clock (RTC) or CMOS clock) from the system clock (a.k.a. the software clock"
+sudo hwclock --systohc
+
+echo "Setting Timezone"
+sudo timedatectl set-timezone America/New_York
+
 echo "Installing reflector"
 sudo pacman -S \
 reflector \
