@@ -21,7 +21,7 @@ echo "Updating pacman latest mirrors"
 sudo reflector --verbose --sort rate --age 24 --country US --protocol https --save /etc/pacman.d/mirrorlist
 
 echo "Synchronizing pacman database"
-sudo pacman -Syyu
+sudo pacman -Syy
 
 echo "Starting Arch Linux package installation"
 source system-packages.sh
