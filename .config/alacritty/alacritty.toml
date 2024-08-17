@@ -1,0 +1,16 @@
+[shell]
+args = ['--login']
+program = "/usr/bin/zsh"
+
+[window]
+startup_mode = "Windowed"
+dynamic_padding = true
+opacity = 1.0
+
+[window.padding]
+x = 6
+y = 0
+
+[window.dimensions]
+columns = 100
+lines = 25
