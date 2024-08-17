@@ -18,13 +18,6 @@
 !.config/Thunar/
 !.config/Thunar/**
 
-!.config/xfce4
-!.config/xfce4/**
-
 !.config/mimeapps.list
 !.config/user-dirs.dirs
 !.config/user-dirs.locale
-
-.vscode/
-!.vscode/argv.json
-!.vscode/extensions/extensions.json
