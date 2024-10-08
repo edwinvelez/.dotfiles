@@ -14,5 +14,6 @@ lshw \
 man \
 pacman-contrib \
 usbutils \
+udisks2 \
 zsh \
 --noconfirm --needed
